@@ -1,0 +1,51 @@
+body {
+    font-family: Trebuchet MS, sans-serif;
+    color: white;
+    background-color: #444444;
+    text-align: center ;
+    font-size: 1.125rem;
+    }
+     
+    h1 {
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-bottom: 1rem;
+    }
+     
+    h2 {
+        font-size: 1rem;
+        font-weight: bolder;
+        margin-bottom: 1rem;
+        color:gold;
+        background-color: white;
+        width: 100vw;
+    }
+    img {
+        opacity: 0.5;
+    }
+    a {
+        color: rgba(255, 245, 253,0.5);
+      }
+    button {
+        cursor: pointer;
+        border-radius: 100px;
+        font-size: 1.25rem;
+        padding: 0.75rem 1rem;
+        border: 1px solid white;
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+      }
+    a:hover { 
+        background-color: white;
+      }
+    img:hover { 
+        opacity: 1;
+      }
+      .center {
+        margin-left: auto;
+        margin-right: auto;
+        width: 15%;
+      }
+      .the-text { color: blue; }
+      .the-text.colorized { color: pink; font-size: 2rem; }
