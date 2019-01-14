@@ -1,0 +1,32 @@
+
+
+/* html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  } */
+h1{
+    font-family: font-family: 'Sarabun', sans-serif;
+    font-size: 2em;
+    padding: 50px 0 0 50px;
+    color: white
+}
+p{
+    padding: 10px 0 0 50px;
+    font-size: 1.15em;
+    color: white
+
+}
+/* .container {
+    width: 40em;
+    margin: 0 auto;
+  } */
+.bkg-img {
+    height: 25rem;
+    background: url('img/background.svg') center/cover no-repeat;
+  }
+  img{
+    width: 200px;
+    height: 200px;
+    padding: 10px 0 0 500px
+
+  }
