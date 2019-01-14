@@ -1,0 +1,18 @@
+@import 'components/navigation.scss';
+@import 'components/home.scss';
+@import 'components/plot.scss';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+body{
+    
+    width: 100%;
+    text-align: center;
+
+/*     display: flex;
+    flex-direction: column;
+ */
+}

@@ -1,0 +1,35 @@
+
+.plot{
+    background-color: #E0E0E0;
+}
+.container {
+    width:800px;
+    margin:0 auto;
+} 
+
+.plotstyle {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.plotstyle h2{
+    padding: 0.3em;
+    font-size: 2em;
+}
+
+.plotstyle img{
+    width: 300px;
+    height: 400px;
+}
+
+.plotstyle_sub{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+
+}
+.text{
+    padding: 0.1em;
+}
