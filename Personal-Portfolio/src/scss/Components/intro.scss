@@ -1,0 +1,59 @@
+
+@import 'styles.scss'; 
+
+.intro{
+    margin: $my_margin;
+    border:2px solid black;
+    border-radius: $my_border;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .box{
+
+        width:20%;
+
+        .container{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2{
+                font-size:2em;
+                text-shadow: 10px 10px rgba(189, 195, 199, 1);
+                padding:$my_padding;
+            }
+            p{
+                margin: 0 0 2em 0;
+                text-align: center;
+                border:2px solid black;
+                padding:$my_padding;
+                background-color: $my_color;
+                border-radius: $my_border;
+            }
+            
+        }
+        
+    }
+  
+  }
+
+  @media all and (max-width: 900px) {
+
+    .intro {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-grow: 1;
+
+        .box{
+            width: 80%;
+        } 
+    
+    }
+
+
+
+}

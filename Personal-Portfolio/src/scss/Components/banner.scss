@@ -1,0 +1,26 @@
+@import 'styles.scss'; 
+
+.banner{
+    margin:$my_margin;
+    background-image: url('/img/juggler.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: $my_border;
+
+    display:flex;   
+    flex-direction: column;
+    align-items: center;
+
+    .container h1{
+        padding: 2em;
+        font-size: 3em;
+        font-weight:bold;
+    }
+
+    .logopos img{
+        padding: 0 0 12rem 0;
+        height: 35rem;
+      }
+  }
