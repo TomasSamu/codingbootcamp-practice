@@ -5,3 +5,10 @@ $my_padding: 1.5em;
 $my_margin: 1em 0 0 0;
 
 
+@mixin mystyle1 {
+
+    font-size:2 em;
+    text-shadow: 10px 10px rgba(189, 195, 199, 1);
+
+    
+}
